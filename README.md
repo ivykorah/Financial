@@ -335,6 +335,7 @@ ORDER BY distance_km DESC;
 | 3542826960473000         | fraud_Kozey-Boehm                          | 2                 | 1856.50           | 38.87         |
 | 377654590313960          | fraud_Boyer PLC                            | 2                 | 1283.30           | 31.26         |
 | 4538566639857            | fraud_Kunde-Sanford                        | 2                 | 1666.94           | 30.37         |  
+
 *Table showing the suspicious transaction with distance between the merchant and customer.*
 
 
@@ -395,9 +396,13 @@ Result of query indicated that Old (70-79) and Very Old (>80) users are prone to
 | Advanced    | 2,243       | 321,449     | 0.698%          |
 | Youth       | 1,446       | 244,054     | 0.592%          |
 | Adult       | 2,671       | 595,635     | 0.448%          |  
+
 *Table showing susceptibility to fraud by age range*
 
-![fraud range by age range](assets/Q6.png)
+
+![fraud range by age range](assets/Q6.png)  
+*Chart showing susceptibility to fraud by age range*
+
 
 
 ### 7. Fraud Confirmation
