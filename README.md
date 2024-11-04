@@ -257,10 +257,11 @@ Total category in dataset:
 ![categories](assets/category.png)
 
 
-The analysis shows that shopping on the internet was the most transacted category.
+The analysis shows that shopping on the internet was the most transacted category. This is shown in the chart below:
 
 ![most transacted category](assets/Q4.png)
 
+The below chart shows the merchants in the high-transaction, high-frequency set and their associated cateories:
 ![most transacted merchants](assets/Q4_merchant.png)
 
 
