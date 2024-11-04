@@ -45,7 +45,7 @@ For a concise deep dive into the credit card transation dataset, I harnessed the
 - ![Git](assets/git.png) **Git & Github**: Essential for version control, collaboration, and project tracking, enabling smooth sharing and tracking of my SQL scripts and analysis outcomes.
 
 
-## The Analysis
+## ![Analysis](assets/analysis.png) The Analysis
 
 First the data was preprosessed for eemless analysis. The query used can be found [in the data preprocessing sql file of this project](/sql_files/data_preprocessing.sql).  
 The major steps includes renaming columns, deriving essential columns, etc.
