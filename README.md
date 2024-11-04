@@ -473,3 +473,5 @@ ORDER BY distance_km DESC;
 *Table showing confirmation of fraudulent transactions.*
 
 The table shows approximately 60% accuracy of determining fraud using the columns and analysis I provided.
+
+
