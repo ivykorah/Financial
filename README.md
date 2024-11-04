@@ -489,3 +489,5 @@ It also significantly improved my analytical thinking skills when working with c
 
 This experience has expanded my toolkit, enabling me to approach future data analysis challenges with confidence and proficiency.
 
+## ![Recommendation](assets/lightbulb.png) Insights and Recommendation
+
