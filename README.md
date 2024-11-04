@@ -186,9 +186,10 @@ A sample of the resulting merchants are as below
 | fraud_Metz-Boehm               | 2                 | 2.96               | 0           |
 | fraud_Balistreri-Nader         | 2                 | 2.69               | 0           |
 | fraud_Hills-Witting            | 2                 | 2.66               | 1           |  
+
 *Table showing the merchants associated with such high frequency transactions  
 
-The table below shows high transaction frequency transaction where the total amount sent exceeds 1000 per credit card.
+
 | Merchant                             | Total Amount Spent |
 |--------------------------------------|---------------------|
 | fraud_Bednar Group                   | 1697.64            |
@@ -212,7 +213,10 @@ The table below shows high transaction frequency transaction where the total amo
 | fraud_Stamm-Witting                  | 1006.86            |
 | fraud_Terry-Huel                     | 2035.85            |
 | fraud_Thiel Ltd                      | 1031.17            |
-| fraud_Welch Inc                      | 1474.33            |
+| fraud_Welch Inc                      | 1474.33            |  
+*Table showing high transaction frequency transaction where the total amount sent exceeds 1000 per credit card.*
+
+For further analysis, I will focus on these 22 transactions
 
 
 ### 4. High-Value Transactions Categories
