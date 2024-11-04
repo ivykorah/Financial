@@ -1,4 +1,4 @@
-# Credit Card Transactions Analysis
+# Credit Card Transactions Analysis ![Analysis](assets/analytics.png)
 
 ## 🚀 **Introduction**
 This project focuses on analyzing financial credit card transaction data to identify patterns and features that may indicate potential fraudulent activities.  
