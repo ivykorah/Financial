@@ -475,7 +475,7 @@ ORDER BY distance_km DESC;
 The table shows approximately 60% accuracy of determining fraud using the columns and analysis I provided.
 
 
-## Key Takeaways from the Project
+## ![key takeaway](assets/key.png) Key Takeaways from the Project
 
 This project was instrumental in refining my SQL querying abilities for effective database retrieval and manipulation.  
 It also significantly improved my analytical thinking skills when working with complex datasets.
