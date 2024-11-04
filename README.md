@@ -102,6 +102,7 @@ A snapshot of the result revealed that the highest average daily transaction wit
 | 3590946339258730        | 0                    | 6271.37         |
 | 3592325941359220        | 0                    | 12766.18        |
 | 36581538659449          | 0                    | 13405.45        |  
+
 *Table showing the average daily transaction frequency*
 
 ![Visual of average daily transaction frequency](assets/Q1.png)
@@ -187,7 +188,7 @@ A sample of the resulting merchants are as below
 | fraud_Balistreri-Nader         | 2                 | 2.69               | 0           |
 | fraud_Hills-Witting            | 2                 | 2.66               | 1           |  
 
-*Table showing the merchants associated with such high frequency transactions  
+*Table showing the merchants associated with such high frequency transactions*  
 
 
 | Merchant                             | Total Amount Spent |
@@ -214,6 +215,7 @@ A sample of the resulting merchants are as below
 | fraud_Terry-Huel                     | 2035.85            |
 | fraud_Thiel Ltd                      | 1031.17            |
 | fraud_Welch Inc                      | 1474.33            |  
+
 *Table showing high transaction frequency transaction where the total amount sent exceeds 1000 per credit card.*
 
 For further analysis, I will focus on these 22 transactions
