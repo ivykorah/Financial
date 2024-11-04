@@ -41,16 +41,16 @@ The following questions guided my analysis, aimed at identifying transaction ano
 For a concise deep dive into the credit card transation dataset, I harnessed the power of the below key tools:
 - ![SQL database](assets/sql-server.png) **SQL**: SQL was the backbone of my analysis, enabling efficient querying and data manipulation with PostgreSQL as my database management system.
 - ![PostgreSQL](assets/postgres_logo.png) **PostgreSQL (PGAdmin)**: This was my chosen database management system. I used pgAdmin for database management due to its user-friendly interface and seamless integration.
-- ![VS code](assets\vs-code.png) **Visual Studio Code**: My primary IDE for writing and running SQL queries, providing an efficient and organized workflow.
-- ![Git](assets\git.png) **Git & Github**: Essential for version control, collaboration, and project tracking, enabling smooth sharing and tracking of my SQL scripts and analysis outcomes.
+- ![VS code](assets/vs-code.png) **Visual Studio Code**: My primary IDE for writing and running SQL queries, providing an efficient and organized workflow.
+- ![Git](assets/git.png) **Git & Github**: Essential for version control, collaboration, and project tracking, enabling smooth sharing and tracking of my SQL scripts and analysis outcomes.
 
 
 ## The Analysis
 
-First the data was preprosessed for eemless analysis. The query used can be found [in the data preprocessing sql file of this project](/sql_files\data_preprocessing.sql).  
+First the data was preprosessed for eemless analysis. The query used can be found [in the data preprocessing sql file of this project](/sql_files/data_preprocessing.sql).  
 The major steps includes renaming columns, deriving essential columns, etc.
 
-The query for the main analysis can be found in the [dataset analysis SQL file of this project](sql_files\dataset_analysis.sql).
+The query for the main analysis can be found in the [dataset analysis SQL file of this project](sql_files/dataset_analysis.sql).
 The analysis using the above questions are as follows:
 
 ### 1. High Transaction Frequency
@@ -104,7 +104,7 @@ A snapshot of the result revealed that the highest average daily transaction wit
 | 36581538659449          | 0                    | 13405.45        |  
 *Table showing the average daily transaction frequency*
 
-![Visual of average daily transaction frequency](assets\Q1.png)
+![Visual of average daily transaction frequency](assets/Q1.png)
 
 ### 2. Frequent Transactions
 This could highlight merchants associated with potential fraudulent activity. The query is below:
@@ -143,7 +143,7 @@ About 6% of the dataset in the past 6 months has a suspiciously high average dai
 | Transactions in the Last 6 Months         | 371,825   |
 | Users with a Daily Average of 4+ Transactions | 78,602|
 
-![users with 4+ average daily transaction](assets\Q2.png)
+![users with 4+ average daily transaction](assets/Q2.png)
 
 
 ### 3. Rapid Transactions to Same Merchant within short period
@@ -248,14 +248,14 @@ GROUP BY m.credit_card_number, m.merchant, c.category, m.total_amount_spent
 
 Total category in dataset:
 
-![categories](assets\category.png)
+![categories](assets/category.png)
 
 
 The analysis shows that shopping on the internet was the most transacted category.
 
-![alt text](assets\Q4.png)
+![most transacted category](assets/Q4.png)
 
-![alt text](assets\Q4_merchant.png)
+![most transacted merchants](assets/Q4_merchant.png)
 
 
 ### 5. Customer-Merchant Distance
@@ -266,7 +266,7 @@ The law calculates the great-circle distance between two points on the surface o
 The equation takes into account the longitudes and latitudes of both the customer and merchant locations.  
 The equation is as below:
 
-![alt text](assets\equation.png)
+![Spherical law of cosines](assets/equation.png)
 
 The query is as below:
 
@@ -390,7 +390,7 @@ Result of query indicated that Old (70-79) and Very Old (>80) users are prone to
 | Adult       | 2,671       | 595,635     | 0.448%          |  
 *Table showing susceptibility to fraud by age range*
 
-![alt text](assets\Q6.png)
+![fraud range by age range](assets/Q6.png)
 
 
 ### 7. Fraud Confirmation
