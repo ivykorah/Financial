@@ -469,6 +469,7 @@ ORDER BY distance_km DESC;
 | 3542826960473000         | fraud_Kozey-Boehm                             | 2                 | 1856.5             | 38.87         | TRUE     |
 | 377654590313960          | fraud_Boyer PLC                               | 2                 | 1283.3             | 31.26         | FALSE    |
 | 4538566639857            | fraud_Kunde-Sanford                           | 2                 | 1666.94            | 30.37         | TRUE     |  
+
 *Table showing confirmation of fraudulent transactions.*
 
 The table shows approximately 60% accuracy of determining fraud using the columns and analysis I provided.
