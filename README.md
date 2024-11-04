@@ -475,3 +475,17 @@ ORDER BY distance_km DESC;
 The table shows approximately 60% accuracy of determining fraud using the columns and analysis I provided.
 
 
+## Key Takeaways from the Project
+
+This project was instrumental in refining my SQL querying abilities for effective database retrieval and manipulation.  
+It also significantly improved my analytical thinking skills when working with complex datasets.
+
+
+### What I Gained from This Project:
+- Mastering Equations and Functions: I honed the art of using equations and advanced SQL functions to achieve precise and efficient data analysis. This enhancement improved the clarity, performance, and depth of my SQL queries. 🐐
+- SQL Functions and CASE Statements: I deepened my understanding of how to leverage key SQL functions, including date-time and trigonometric functions. Additionally, I strengthened my skills in using CASE statements, not only within SELECT clauses but also alongside aggregate functions. This has enabled me to simplify complex logic and deliver insights that inform better decision-making. 🏋️‍♂️
+- Results Presentation: This project taught me how to think analytically and interpret the outcomes of my queries, presenting them both graphically and descriptively. The ability to transform raw query results into meaningful visualizations and narratives enhanced my data storytelling capabilities.
+- Enhanced Analytical Thinking: Through this project, I developed my "analytics superpower" by applying advanced analytical techniques to real-world data. This allowed me to uncover hidden trends and patterns that weren't immediately apparent and learn how to convey these insights effectively to non-technical stakeholders. 💪  
+
+This experience has expanded my toolkit, enabling me to approach future data analysis challenges with confidence and proficiency.
+
