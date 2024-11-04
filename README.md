@@ -105,6 +105,7 @@ A snapshot of the result revealed that the highest average daily transaction wit
 
 *Table showing the average daily transaction frequency*
 
+
 ![Visual of average daily transaction frequency](assets/Q1.png)
 
 ### 2. Frequent Transactions
